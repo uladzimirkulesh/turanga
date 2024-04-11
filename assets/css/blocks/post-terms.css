@@ -1,0 +1,41 @@
+/*-------------------------------------------------------
+Post terms
+-------------------------------------------------------*/
+
+.wp-block-post-terms > * {
+	display: inline-block;
+}
+
+.wp-block-post-terms > a:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.wp-block-post-terms > a {
+	display: inline-block;
+
+	background-image: linear-gradient(to right, var(--wp--preset--color--contrast-underlining) 0, var(--wp--preset--color--contrast-underlining) 100%), linear-gradient(to right, var(--wp--preset--color--contrast) 0, var(--wp--preset--color--contrast) 100%);
+	background-size: 100% 1px, 0 1px;
+	background-position: 0 90%, 100% 90%;
+	background-repeat: no-repeat;
+}
+
+.wp-block-post-terms a:hover,
+.wp-block-post-terms a:focus,
+.wp-block-post-terms a:active {
+	background-size: 0 1px, 100% 1px;
+	background-position: 100% 90%, 0 90%;
+}
+
+.wp-block-post-terms__separator {
+	position: absolute;
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	word-wrap: normal !important;
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	overflow: hidden;
+	border: 0;
+}

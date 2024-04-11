@@ -1,0 +1,21 @@
+/*-------------------------------------------------------
+Post date
+-------------------------------------------------------*/
+
+.wp-block-post-date a {
+	display: inline-block;
+
+	background-image: linear-gradient(to right, var(--wp--preset--color--contrast-underlining) 0, var(--wp--preset--color--contrast-underlining) 100%), linear-gradient(to right, var(--wp--preset--color--contrast) 0, var(--wp--preset--color--contrast) 100%);
+	background-size: 100% 1px, 0 1px;
+	background-position: 0 90%, 100% 90%;
+	background-repeat: no-repeat;
+
+	transition: color 0.25s ease-in-out, background-size 0.25s ease-in-out;
+}
+
+.wp-block-post-date a:hover,
+.wp-block-post-date a:focus,
+.wp-block-post-date a:active {
+	background-size: 0 1px, 100% 1px;
+	background-position: 100% 90%, 0 90%;
+}
