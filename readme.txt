@@ -4,13 +4,13 @@ Contributors: Uladzimir Kulesh
 Requires at least: 6.1
 Tested up to: 6.5
 Requires PHP: 5.6
-Stable tag: 1.1.0
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Turanga is an easy-to-use WordPress theme inspired by simplicity. With block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s colors and eye-catching design will let your work shine. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
+Introducing Turanga - the ultimate WordPress theme for tattoo agencies! With its sleek and modern design, Turanga is the perfect choice for any tattoo studio looking to make a bold statement online. This theme is packed with all the features you need to showcase your unique style and attract new clients. Turanga's fully customizable layout allows you to effortlessly create a website that truly reflects your brand. Plus, with its responsive design, your website will look amazing on any device, ensuring a seamless user experience for your visitors. Let Turanga elevate your online presence and attract more clients to your tattoo agency. Get Turanga today and watch your business soar!
 
 == Installation ==
 
@@ -21,8 +21,8 @@ Turanga is an easy-to-use WordPress theme inspired by simplicity. With block pat
 
 == Changelog ==
 
-= 1.1.0 =
-* Released: April 7, 2024
+= 1.0.0 =
+* Released: May 7, 2024
 
 == Copyright ==
 
@@ -39,14 +39,9 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-== Credits ==
+=== Fonts ===
 
-Lenis, Copyright darkroom.engineering
-License: MIT
-Source: https://github.com/darkroomengineering/lenis
-
-=== Images ===
-
-Copyright Unsplash
-License: Unsplash license
-Source: https://unsplash.com/
+Satoshi Font
+Copyright 2021 Indian Type Foundry
+License: ITF Free Font License, 1.0, https://www.fontshare.com/licenses/itf-ffl
+Source: https://www.fontshare.com/

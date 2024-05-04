@@ -8,8 +8,8 @@
 
 <!-- wp:group {"className":"error404-content","layout":{"type":"constrained"}} -->
 <div class="wp-block-group error404-content">
-	<!-- wp:heading {"textAlign":"center","level":1,"className":"has-heading-serif-font","fontSize":"xxxxxx-large"} -->
-	<h1 class="wp-block-heading has-text-align-center has-heading-serif-font has-xxxxxx-large-font-size"><?php echo esc_html_x( 'Error 404', 'Error code for a webpage that is not found.', 'turanga' ); ?></h1>
+	<!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"textTransform":"uppercase"}},"className":"has-heading-serif-font","fontSize":"xxxxxxx-large"} -->
+	<h1 class="wp-block-heading has-text-align-center has-heading-serif-font has-xxxxxxx-large-font-size" style="text-transform:uppercase"><?php echo esc_html_x( 'Error 404', 'Error code for a webpage that is not found.', 'turanga' ); ?></h1>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"contrast-secondary-text"} -->
@@ -18,8 +18,8 @@
 
 	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
 	<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)">
-		<!-- wp:button {"className":"is-style-outline"} -->
-		<div class="wp-block-button is-style-outline">
+		<!-- wp:button -->
+		<div class="wp-block-button">
 			<a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php esc_html_e( 'Back to Home', 'turanga' ); ?></a>
 		</div>
 		<!-- /wp:button -->

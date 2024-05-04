@@ -2,13 +2,17 @@
 Search
 -------------------------------------------------------*/
 
+.wp-block-query-no-results {
+	margin-top: var(--wp--preset--spacing--30) !important;
+}
+
 .wp-block-search .wp-block-search__button {
 	margin-left: 10px !important;
-	border-radius: 0.25rem;
+	border-radius: 0;
 
 	color: var(--wp--preset--color--contrast);
 	background-color: transparent;
-	border-color: var(--wp--preset--color--contrast-borders);
+	border-color: var(--wp--preset--color--contrast-inputs);
 }
 
 .wp-block-search .wp-block-search__button:hover,
@@ -24,8 +28,8 @@ Search
 }
 
 :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) {
-	border: 1px solid var(--wp--preset--color--contrast-borders);
-	border-radius: 0.25rem;
+	border: 1px solid var(--wp--preset--color--contrast-inputs);
+	border-radius: 0;
 }
 
 :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input {

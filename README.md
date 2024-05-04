@@ -1,6 +1,6 @@
 # Turanga WordPress Theme
 
-Turanga is an easy-to-use WordPress theme inspired by simplicity. With block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s colors and eye-catching design will let your work shine. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
+Introducing Turanga - the ultimate WordPress theme for tattoo agencies! With its sleek and modern design, Turanga is the perfect choice for any tattoo studio looking to make a bold statement online. This theme is packed with all the features you need to showcase your unique style and attract new clients. Turanga's fully customizable layout allows you to effortlessly create a website that truly reflects your brand. Plus, with its responsive design, your website will look amazing on any device, ensuring a seamless user experience for your visitors. Let Turanga elevate your online presence and attract more clients to your tattoo agency. Get Turanga today and watch your business soar!
 
 ## Installation
 
@@ -21,20 +21,20 @@ Turanga is an easy-to-use WordPress theme inspired by simplicity. With block pat
 * 60: 96-144px	   - 4-6 lines
 * 70: 120-240px	- 5-10 lines
 
-
 ### Font-sizes (320-1600px):
 
-* X Small:		11px		   - Extra Small Text
-* Small:			14px		   - Small Text, H6
+* X Small:		13px		   - Extra Small Text, H6
+* Small:			14px		   - Small Text
 * Normal:		16px		   - Text
 * Medium:		18px		   - Large Text, Blockquote
-* Large:			21px		   - H5, Pullquote
-* X Large:		24px		   - H4
-* 2X Large:		30px		   - H3
-* 3X Large:		36px		   - H2
-* 4X Large:		48px		   - H1
-* 5X Large:		48-84px		- Post Headings
-* 6X Large:		60-96px	   - Huge Headings
+* Large:			18-21px		- H5, Pullquote
+* X Large:		21-24px		- H4
+* 2X Large:		24-30px		- H3
+* 3X Large:		28-36px		- H2
+* 4X Large:		32-48px		- H1
+* 5X Large:		36-60px		- Section Headings
+* 6X Large:		42-84px		- Post Headings
+* 7X Large:		42-96px	   - Huge Headings
 
 ## Terminal
 
@@ -42,8 +42,8 @@ browser-sync start --proxy "localhost:8888/wordpress" --files "**/*" --browser "
 
 ## Changelog
 
-**1.1.0**
-   * Released: April 7, 2024
+**1.0.0**
+   * Released: May 7, 2024
 
 ## Copyright
 
@@ -60,14 +60,9 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-## Credits
+## Fonts
 
-1. **Lenis**, Copyright darkroom.engineering
-   * License: MIT
-   * Source: https://github.com/darkroomengineering/lenis
-
-## Images
-
-Copyright Unsplash
-   * License: Unsplash license
-   * Source: https://unsplash.com/
+Satoshi Font
+Copyright 2021 Indian Type Foundry
+License: ITF Free Font License, 1.0, https://www.fontshare.com/licenses/itf-ffl
+Source: https://www.fontshare.com/

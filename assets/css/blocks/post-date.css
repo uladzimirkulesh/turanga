@@ -5,7 +5,7 @@ Post date
 .wp-block-post-date a {
 	display: inline-block;
 
-	background-image: linear-gradient(to right, var(--wp--preset--color--contrast-underlining) 0, var(--wp--preset--color--contrast-underlining) 100%), linear-gradient(to right, var(--wp--preset--color--contrast) 0, var(--wp--preset--color--contrast) 100%);
+	background-image: linear-gradient(to right, var(--wp--preset--color--contrast-inputs-hover) 0, var(--wp--preset--color--contrast-inputs-hover) 100%), linear-gradient(to right, var(--wp--preset--color--contrast) 0, var(--wp--preset--color--contrast) 100%);
 	background-size: 100% 1px, 0 1px;
 	background-position: 0 90%, 100% 90%;
 	background-repeat: no-repeat;

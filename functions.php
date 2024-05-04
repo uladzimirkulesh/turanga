@@ -23,10 +23,7 @@ if ( ! function_exists( 'turanga_support' ) ) :
 		add_editor_style( array(
 			'style.css',
 			'assets/css/grid.css',
-			'assets/css/color-themes.css',
-			'assets/css/patterns.css',
-			'assets/css/animations.css',
-			'assets/css/uk-portfolio.css'
+			'assets/css/patterns.css'
 		) );
 
 	}
@@ -69,42 +66,15 @@ if ( ! function_exists( 'turanga_scripts' ) ) :
 		);
 
 		wp_register_style(
-			'turanga-color-themes',
-			get_template_directory_uri() . '/assets/css/color-themes.css',
-			array( 'turanga-style' ),
-			$version_string
-		);
-
-		wp_register_style(
 			'turanga-patterns',
 			get_template_directory_uri() . '/assets/css/patterns.css',
 			array( 'turanga-style' ),
 			$version_string
 		);
 
-		wp_register_style(
-			'turanga-animations',
-			get_template_directory_uri() . '/assets/css/animations.css',
-			array( 'turanga-style' ),
-			$version_string
-		);
-
 		// Enqueue other stylesheets.
 		wp_enqueue_style( 'turanga-grid' );
-		wp_enqueue_style( 'turanga-color-themes' );
 		wp_enqueue_style( 'turanga-patterns' );
-		wp_enqueue_style( 'turanga-animations' );
-
-		// Register plugins stylesheets.
-		wp_register_style(
-			'uk-portfolio',
-			get_template_directory_uri() . '/assets/css/uk-portfolio.css',
-			array( 'turanga-style' ),
-			$version_string
-		);
-
-		// Enqueue plugins stylesheets.
-		wp_enqueue_style( 'uk-portfolio' );
 
 		// Register global scripts.
 		wp_register_script(
@@ -120,63 +90,6 @@ if ( ! function_exists( 'turanga_scripts' ) ) :
 
 		// Enqueue global scripts.
 		wp_enqueue_script( 'turanga-global' );
-
-		// Register GreenSock scripts.
-		wp_register_script(
-			'turanga-gsap',
-			get_template_directory_uri() . '/assets/js/vendors/gsap.min.js',
-			array( 'turanga-global' ),
-			'3.12.2',
-			array(
-				'strategy' => 'defer',
-				'in_footer' => true
-			)
-		);
-
-		wp_register_script(
-			'turanga-scrolltrigger',
-			get_template_directory_uri() . '/assets/js/vendors/ScrollTrigger.min.js',
-			array( 'turanga-global' ),
-			'3.12.2',
-			array(
-				'strategy' => 'defer',
-				'in_footer' => true
-			)
-		);
-
-		// Enqueue GreenSock scripts.
-		wp_enqueue_script( 'turanga-gsap' );
-		wp_enqueue_script( 'turanga-scrolltrigger' );
-
-		// Register Lenis scripts.
-		wp_register_script(
-			'turanga-lenis',
-			get_template_directory_uri() . '/assets/js/vendors/lenis.min.js',
-			array( 'turanga-gsap', 'turanga-scrolltrigger' ),
-			'1.0.42',
-			array(
-				'strategy' => 'defer',
-				'in_footer' => true
-			)
-		);
-
-		// Enqueue Lenis scripts.
-		wp_enqueue_script( 'turanga-lenis' );
-
-		// Register animations scripts.
-		wp_register_script(
-			'turanga-animations',
-			get_template_directory_uri() . '/assets/js/animations.js',
-			array( 'turanga-gsap', 'turanga-scrolltrigger' ),
-			$version_string,
-			array(
-				'strategy' => 'defer',
-				'in_footer' => true
-			)
-		);
-
-		// Enqueue animations scripts.
-		wp_enqueue_script( 'turanga-animations' );
 
 	}
 
@@ -218,41 +131,6 @@ if ( ! function_exists( 'turanga_block_styles' ) ) :
 endif;
 
 add_action( 'enqueue_block_editor_assets', 'turanga_block_styles' );
-
-if ( ! function_exists( 'turanga_block_variations' ) ) :
-
-	/**
-	 * Enqueue block variations scripts.
-	 *
-	 * @since Turanga 1.0.0
-	 *
-	 * @return void
-	 */
-	function turanga_block_variations() {
-
-		$theme_version  = wp_get_theme()->get( 'Version' );
-		$version_string = is_string( $theme_version ) ? $theme_version : false;
-
-		wp_enqueue_script(
-			'turanga-block-variations',
-			get_theme_file_uri( 'assets/js/block-variations.js' ),
-			array(
-				'wp-blocks',
-				'wp-dom-ready',
-				'wp-edit-post',
-				'wp-i18n'
-			),
-			$version_string,
-			true
-		);
-
-		wp_set_script_translations( 'turanga-block-variations', 'turanga' );
-
-	}
-
-endif;
-
-add_action( 'enqueue_block_editor_assets', 'turanga_block_variations' );
 
 if ( ! function_exists( 'turanga_block_stylesheets' ) ) :
 
@@ -324,16 +202,6 @@ if ( ! function_exists( 'turanga_block_stylesheets' ) ) :
 				'src'    => get_parent_theme_file_uri( 'assets/css/blocks/navigation.css' ),
 				'ver'    => $version_string,
 				'path'   => get_parent_theme_file_path( 'assets/css/blocks/navigation.css' ),
-			)
-		);
-
-		wp_enqueue_block_style(
-			'core/paragraph',
-			array(
-				'handle' => 'turanga-paragraph',
-				'src'    => get_parent_theme_file_uri( 'assets/css/blocks/paragraph.css' ),
-				'ver'    => $version_string,
-				'path'   => get_parent_theme_file_path( 'assets/css/blocks/paragraph.css' ),
 			)
 		);
 
@@ -489,32 +357,12 @@ if ( ! function_exists( 'turanga_head_meta_tags' ) ) :
 	 * @return html
 	 */
 	function turanga_head_meta_tags() {
-		echo '<meta name="theme-color" content="rgb(2, 2, 2)" />';
+		echo '<meta name="theme-color" content="rgb(16, 16, 16)" />';
 	}
 
 endif;
 
 add_action( 'wp_head', 'turanga_head_meta_tags' );
 
-if ( ! function_exists( 'turanga_loading_screen' ) ) :
-
-	/**
-	 * Adds loading screen HTML in the top of the body tag.
-	 *
-	 * @since Turanga 1.0.0
-	 *
-	 * @return html
-	 */
-	function turanga_loading_screen() {
-		block_template_part( 'loading-screen' );
-	}
-
-endif;
-
-add_action( 'wp_body_open', 'turanga_loading_screen' );
-
 // Load theme admin page file.
 require get_template_directory() . '/inc/theme.php';
-
-// Load TGM Plugin Activation file.
-require get_template_directory() . '/inc/theme-required-plugins.php';

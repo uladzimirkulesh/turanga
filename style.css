@@ -3,11 +3,11 @@ Theme Name: Turanga
 Theme URI: https://uladzimirkulesh.com/portfolio/turanga
 Author: Uladzimir Kulesh
 Author URI: https://uladzimirkulesh.com
-Description: Turanga is an easy-to-use WordPress theme inspired by simplicity. With block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s colors and eye-catching design will let your work shine. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
+Description: Introducing Turanga - the ultimate WordPress theme for tattoo agencies! With its sleek and modern design, Turanga is the perfect choice for any tattoo studio looking to make a bold statement online. This theme is packed with all the features you need to showcase your unique style and attract new clients. Turanga's fully customizable layout allows you to effortlessly create a website that truly reflects your brand. Plus, with its responsive design, your website will look amazing on any device, ensuring a seamless user experience for your visitors. Let Turanga elevate your online presence and attract more clients to your tattoo agency. Get Turanga today and watch your business soar!
 Requires at least: 6.1
 Tested up to: 6.5
 Requires PHP: 5.6
-Version: 1.1.0
+Version: 1.0.0000000000000000000000000000
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: turanga
@@ -169,7 +169,7 @@ address {
 mark,
 ins {
 	color: var(--wp--preset--color--base);
-	background-color: var(--wp--preset--color--primary);
+	background-color: var(--wp--preset--color--contrast);
 	text-decoration: none;
 }
 
@@ -195,43 +195,28 @@ Fonts
 }
 
 .has-x-large-font-size {
-	line-height: 1.25;
+	line-height: 1.16667;
 }
 
 .has-xx-large-font-size {
-	line-height: 1.15;
+	line-height: 1.13333;
 }
 
 .has-xxx-large-font-size {
-	line-height: 1.1;
+	line-height: 1.11111;
 }
 
 .has-xxxx-large-font-size {
-	line-height: 1;
+	line-height: 1.04762;
 }
 
 .has-xxxxx-large-font-size {
-	line-height: 0.95;
+	line-height: 1;
 }
 
-.has-xxxxxx-large-font-size {
-	line-height: 0.85;
-}
-
+.has-xxxxxx-large-font-size,
 .has-xxxxxxx-large-font-size {
-	line-height: 0.8;
-}
-
-.has-heading-font {
-	font-family: var(--wp--preset--font-family--heading);
-}
-
-.has-heading-serif-font,
-p.has-heading-font em {
-	font-family: var(--wp--preset--font-family--heading-serif);
-	font-weight: 200;
-	font-style: italic;
-	letter-spacing: 0;
+	line-height: 0.98958;
 }
 
 /*-------------------------------------------------------
@@ -240,18 +225,10 @@ Links
 
 a {
 	text-decoration-thickness: 1px !important;
-	text-decoration-color: var(--wp--preset--color--contrast-underlining);
-	text-underline-offset: 0.15em;
 
 	transition-property: color, text-decoration-color, background-color, border-color, background-size;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
-}
-
-a:hover,
-a:focus,
-a:active {
-	text-decoration-color: var(--wp--preset--color--contrast);
 }
 
 /*-------------------------------------------------------
@@ -361,10 +338,10 @@ textarea,
 	background-color: transparent;
 	border-width: 1px;
 	border-style: solid;
-	border-color: var(--wp--preset--color--contrast-borders);
-	border-radius: 0.25rem;
+	border-color: var(--wp--preset--color--contrast-inputs);
+	border-radius: 0;
 	box-shadow: none;
-	-webkit-border-radius: 0.25rem;
+	-webkit-border-radius: 0;
 	-webkit-box-shadow: none;
 
 	transition: all 0.25s ease-in-out;
@@ -388,7 +365,7 @@ input[type="color"]:hover,
 textarea:hover,
 .wp-block-post-comments-form textarea:hover,
 .wp-block-post-comments-form input:not([type="submit"]):not([type="checkbox"]):hover {
-	border-color: var(--wp--preset--color--contrast-borders);
+	border-color: var(--wp--preset--color--contrast-inputs-hover);
 }
 
 :not(.wp-block-more) > input[type="text"]:focus,
@@ -409,7 +386,7 @@ input[type="color"]:focus,
 textarea:focus,
 .wp-block-post-comments-form textarea:focus,
 .wp-block-post-comments-form input:not([type="submit"]):not([type="checkbox"]):focus {
-	border-color: var(--wp--preset--color--contrast-underlining);
+	border-color: var(--wp--preset--color--contrast-inputs-hover);
 	outline: none;
 }
 
@@ -439,7 +416,7 @@ textarea {
 }
 
 ::placeholder {
-	color: var(--wp--preset--color--contrast-borders);
+	color: var(--wp--preset--color--contrast-inputs);
 }
 
 /*
@@ -466,10 +443,10 @@ select {
 	background-color: transparent;
 	border-width: 1px;
 	border-style: solid;
-	border-color: var(--wp--preset--color--contrast-borders);
-	border-radius: 0.25rem;
+	border-color: var(--wp--preset--color--contrast-inputs);
+	border-radius: 0;
 	box-shadow: none;
-	-webkit-border-radius: 0.25rem;
+	-webkit-border-radius: 0;
 	-webkit-box-shadow: none;
 
 	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%23ffffff'><polygon points='0,0 10,0 5,5'/></svg>");
@@ -480,11 +457,11 @@ select {
 }
 
 select:hover {
-	border-color: var(--wp--preset--color--contrast-borders);
+	border-color: var(--wp--preset--color--contrast-inputs-hover);
 }
 
 select:focus {
-	border-color: var(--wp--preset--color--contrast-borders);
+	border-color: var(--wp--preset--color--contrast-inputs-hover);
 	outline: none;
 }
 
@@ -495,7 +472,7 @@ Radio, checkbox
 input[type="radio"],
 input[type="checkbox"] {
 	position: relative;
-	border: 1px solid var(--wp--preset--color--contrast-borders) !important;
+	border: 1px solid var(--wp--preset--color--contrast-inputs) !important;
 }
 
 input[type="radio"] + label,
@@ -511,6 +488,7 @@ Clearings
 -------------------------------------------------------*/
 
 .header::after,
+.content::after,
 .footer::after,
 .wp-block-post-content::after,
 .comment-content::after,
@@ -518,27 +496,6 @@ Clearings
 	content: "";
 	display: block;
 	clear: both;
-}
-
-/*-------------------------------------------------------
-Theme spacings
--------------------------------------------------------*/
-
-/*
-Adds top and bottom spacings
-*/
-
-main {
-	padding-top: calc(var(--wp--preset--spacing--70) + var(--header-height, 72px));
-	padding-bottom: calc(var(--wp--preset--spacing--70) + var(--footer-height, 72px));
-}
-
-/*
-Removing the "more" tag to remove space before it
-*/
-
-span[id^="more"] {
-	display: none;
 }
 
 /*-------------------------------------------------------
@@ -550,27 +507,28 @@ Theme layout
 }
 
 /*
+Removing margin before main theme parts
+*/
+
+.wp-site-blocks > * {
+	margin-top: 0;
+}
+
+/*
 Set min height for content
 */
 
 main.content {
-	margin-top: 0;
-
-	min-height: 100vh;
-	min-height: 100svh;
+	min-height: calc(100vh - var(--header-height, 73px) - var(--footer-height, 73px));
+	min-height: calc(100svh - var(--header-height, 73px) - var(--footer-height, 73px));
 }
 
-/*-------------------------------------------------------
-Header
--------------------------------------------------------*/
+/*
+Removing the "more" tag to remove space before it
+*/
 
-.header {
-	position: absolute !important;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 10000;
-	pointer-events: none;
+span[id^="more"] {
+	display: none;
 }
 
 /*-------------------------------------------------------
@@ -583,31 +541,6 @@ Entry header
 
 .edit-post-visual-editor__post-title-wrapper {
 	margin-bottom: var(--wp--preset--spacing--30);
-}
-
-.entry-header--fullwidth {
-	--wp--preset--color--contrast-secondary-text: rgba(255, 255, 255, 0.8) !important;
-	--wp--preset--color--contrast-underlining: rgba(255, 255, 255, 0.5) !important;
-
-	position: relative;
-	overflow: hidden;
-	min-height: 100vh;
-	min-height: 100svh;
-}
-
-.entry-header--fullwidth .wp-block-post-featured-image {
-	position: absolute;
-	top: 0;
-	left: 0;
-	overflow: hidden;
-}
-
-.entry-header--fullwidth .entry-header__container {
-	z-index: 10;
-}
-
-.entry-header--fullwidth .entry-header__container > * {
-	max-width: 960px;
 }
 
 /*
@@ -631,20 +564,14 @@ Footer
 -------------------------------------------------------*/
 
 .footer {
-	position: absolute !important;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	z-index: 1000;
-	pointer-events: none;
+	overflow: hidden;
 }
 
 .footer__container {
-	gap: 0 var(--wp--style--block-gap);
+	gap: calc(var(--wp--style--block-gap) / 2) var(--wp--style--block-gap);
 }
 
 .footer__container > * {
-	pointer-events: auto;
 	line-height: var(--wp--style--block-gap);
 }
 

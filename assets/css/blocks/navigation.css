@@ -2,6 +2,64 @@
 Navigation
 -------------------------------------------------------*/
 
+/*
+Adding a color to a root menu item when hovering over a child menu item
+*/
+
+.wp-block-navigation .has-child:hover > .wp-block-navigation-item__content {
+	color: var(--wp--preset--color--contrast-secondary-text) !important;
+}
+
+/*
+Submenu container
+*/
+
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container {
+	padding: calc(var(--wp--style--block-gap) / 2) 0;
+	line-height: var(--wp--style--block-gap);
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+	background-color: var(--wp--preset--color--contrast-secondary-bg);
+	border: none;
+}
+
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container {
+	top: calc(var(--wp--style--block-gap) / -2);
+}
+
+/*
+Submenu item
+*/
+
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+	padding: 0.375rem 1.25rem;
+}
+
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item__content:hover,
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item__content:focus,
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item__content:active {
+	color: var(--wp--preset--color--contrast-secondary-text) !important;
+}
+
+/*
+Adding a color to a root submenu menu item when hovering over a child menu item
+*/
+
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item.has-child:hover > .wp-block-navigation-item__content {
+	color: var(--wp--preset--color--contrast-secondary-text);
+}
+
+/*
+Arrow
+*/
+
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-icon {
+	margin-left: 0;
+	margin-right: 1.25rem;
+	color: var(--wp--preset--color--contrast-secondary-text);
+}
+
 /*-------------------------------------------------------
 Navigation overlay
 -------------------------------------------------------*/
@@ -32,30 +90,24 @@ Menu
 	justify-content: center;
 }
 
+.wp-block-navigation.items-justified-right {
+	--navigation-layout-justification-setting: flex-start;
+}
+
 /*
 Menu item
 */
 
 .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item__content {
-	--wp--preset--color--contrast-underlining: transparent;
-
 	padding: 0.25rem 0;
 	font-size: var(--wp--preset--font-size--normal);
 	line-height: var(--wp--style--block-gap);
-
-	text-decoration-line: underline;
-	text-decoration-style: solid;
-	text-decoration-color: var(--wp--preset--color--contrast-underlining);
 }
 
 .wp-block-navigation__responsive-container.is-menu-open a:hover,
 .wp-block-navigation__responsive-container.is-menu-open a:focus,
 .wp-block-navigation__responsive-container.is-menu-open a:active {
-	color: var(--wp--preset--color--contrast) !important;
-}
-
-.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item__content:hover {
-	--wp--preset--color--contrast-underlining: rgba(255, 255, 255, 0.35);
+	color: var(--wp--preset--color--contrast-secondary-text) !important;
 }
 
 /*
@@ -65,9 +117,20 @@ Stiles for top level menu items
 .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content > ul > li > .wp-block-navigation-item__content {
 	--wp--preset--font-size--xxxx-large: clamp(2.625rem, 1.4063vw + 2.3438rem, 3.75rem);
 
-	font-family: var(--wp--preset--font-family--heading-serif);
 	font-size: var(--wp--preset--font-size--xxxx-large);
 	line-height: 1.1;
+}
+
+/*
+Fix focused first item
+*/
+
+.wp-block-navigation__responsive-container.is-menu-open a:focus {
+	color: inherit !important;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open a:focus:hover {
+	color: var(--wp--preset--color--contrast-secondary-text) !important;
 }
 
 /*
@@ -80,5 +143,5 @@ Submenu container
 }
 
 .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
-	padding: 0;
+	padding: 0 var(--wp--style--block-gap);
 }
