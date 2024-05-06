@@ -54,9 +54,14 @@
 					"slug": "contrast-borders"
 				},
 				{
-					"color": "rgb(30, 30, 30)",
+					"color": "rgba(255, 255, 255, 0.03)",
 					"name": "Contrast Secondary Background",
 					"slug": "contrast-secondary-bg"
+				},
+				{
+					"color": "rgb(30, 30, 30)",
+					"name": "Grey",
+					"slug": "grey"
 				},
 				{
 					"color": "#ff0000",

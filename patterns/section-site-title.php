@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Site Title section
+ * Title: Site title section
  * Slug: turanga/section-site-title
  * Categories: text, turanga-theme
  * Keywords: text

@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Business Numbers section
+ * Title: Business numbers section
  * Slug: turanga/section-business-numbers
  * Categories: text, turanga-theme
  * Keywords: text, numbers
@@ -15,8 +15,8 @@
 		<div class="wp-block-group grid numbers-list">
 			<!-- wp:group {"metadata":{"name":"Number card"},"style":{"border":{"top":{"color":"var:preset|color|contrast-borders","width":"1px"}},"dimensions":{"minHeight":"100%"},"spacing":{"padding":{"top":"var:preset|spacing|30"},"blockGap":"1rem"}},"className":"number-card number-card--text","layout":{"type":"default"}} -->
 			<div class="wp-block-group number-card number-card--text" style="border-top-color:var(--wp--preset--color--contrast-borders);border-top-width:1px;min-height:100%;padding-top:var(--wp--preset--spacing--30)">
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"xxxxxx-large"} -->
-				<p class="has-contrast-color has-text-color has-link-color has-xxxxxx-large-font-size"><?php echo esc_html_x( '910', 'Business Numbers section number', 'turanga' ); ?></p>
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
+				<p class="has-contrast-color has-text-color has-link-color"><?php echo esc_html_x( '910', 'Business Numbers section number', 'turanga' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-secondary-text"}}},"typography":{"letterSpacing":"0.2em","textTransform":"uppercase","fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-secondary-text","fontSize":"x-small"} -->
@@ -37,8 +37,8 @@
 
 			<!-- wp:group {"metadata":{"name":"Number card"},"style":{"border":{"top":{"color":"var:preset|color|contrast-borders","width":"1px"}},"dimensions":{"minHeight":"100%"},"spacing":{"padding":{"top":"var:preset|spacing|30"},"blockGap":"1rem"}},"className":"number-card number-card--text","layout":{"type":"default"}} -->
 			<div class="wp-block-group number-card number-card--text" style="border-top-color:var(--wp--preset--color--contrast-borders);border-top-width:1px;min-height:100%;padding-top:var(--wp--preset--spacing--30)">
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"xxxxxx-large"} -->
-				<p class="has-contrast-color has-text-color has-link-color has-xxxxxx-large-font-size"><?php echo esc_html_x( '1286', 'Business Numbers section number', 'turanga' ); ?></p>
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
+				<p class="has-contrast-color has-text-color has-link-color"><?php echo esc_html_x( '1286', 'Business Numbers section number', 'turanga' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-secondary-text"}}},"typography":{"letterSpacing":"0.2em","textTransform":"uppercase","fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-secondary-text","fontSize":"x-small"} -->
@@ -59,8 +59,8 @@
 
 			<!-- wp:group {"metadata":{"name":"Number card"},"style":{"border":{"top":{"color":"var:preset|color|contrast-borders","width":"1px"}},"dimensions":{"minHeight":"100%"},"spacing":{"padding":{"top":"var:preset|spacing|30"},"blockGap":"1rem"}},"className":"number-card number-card--text","layout":{"type":"default"}} -->
 			<div class="wp-block-group number-card number-card--text" style="border-top-color:var(--wp--preset--color--contrast-borders);border-top-width:1px;min-height:100%;padding-top:var(--wp--preset--spacing--30)">
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"xxxxxx-large"} -->
-				<p class="has-contrast-color has-text-color has-link-color has-xxxxxx-large-font-size"><?php echo esc_html_x( '1763', 'Business Numbers section number', 'turanga' ); ?></p>
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
+				<p class="has-contrast-color has-text-color has-link-color"><?php echo esc_html_x( '1763', 'Business Numbers section number', 'turanga' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-secondary-text"}}},"typography":{"letterSpacing":"0.2em","textTransform":"uppercase","fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-secondary-text","fontSize":"x-small"} -->
@@ -81,8 +81,8 @@
 
 			<!-- wp:group {"metadata":{"name":"Number card"},"style":{"border":{"top":{"color":"var:preset|color|contrast-borders","width":"1px"}},"dimensions":{"minHeight":"100%"},"spacing":{"padding":{"top":"var:preset|spacing|30"},"blockGap":"1rem"}},"className":"number-card number-card--text","layout":{"type":"default"}} -->
 			<div class="wp-block-group number-card number-card--text" style="border-top-color:var(--wp--preset--color--contrast-borders);border-top-width:1px;min-height:100%;padding-top:var(--wp--preset--spacing--30)">
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"xxxxxx-large"} -->
-				<p class="has-contrast-color has-text-color has-link-color has-xxxxxx-large-font-size"><?php echo esc_html_x( '967', 'Business Numbers section number', 'turanga' ); ?></p>
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
+				<p class="has-contrast-color has-text-color has-link-color"><?php echo esc_html_x( '967', 'Business Numbers section number', 'turanga' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-secondary-text"}}},"typography":{"letterSpacing":"0.2em","textTransform":"uppercase","fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-secondary-text","fontSize":"x-small"} -->

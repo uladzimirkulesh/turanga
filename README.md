@@ -62,7 +62,7 @@ GNU General Public License for more details.
 
 ## Fonts
 
-Satoshi Font
-Copyright 2021 Indian Type Foundry
-License: ITF Free Font License, 1.0, https://www.fontshare.com/licenses/itf-ffl
-Source: https://www.fontshare.com/
+### Satoshi Font
+* Copyright 2021 Indian Type Foundry
+* License: ITF Free Font License, 1.0, https://www.fontshare.com/licenses/itf-ffl
+* Source: https://www.fontshare.com/

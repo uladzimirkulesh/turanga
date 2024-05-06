@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: About Us section
+ * Title: About us section
  * Slug: turanga/section-about-us
  * Categories: text, turanga-theme
  * Keywords: text, about
@@ -24,7 +24,9 @@
 	<!-- wp:group {"metadata":{"name":"Section content"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"className":"section__content","layout":{"type":"default"}} -->
 	<div class="wp-block-group section__content">
 		<!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","className":"about-us__image"} -->
-		<figure class="wp-block-image size-full about-us__image"><img alt="" style="aspect-ratio:16/9;object-fit:cover"/></figure>
+		<figure class="wp-block-image size-full about-us__image">
+			<img alt="" style="aspect-ratio:16/9;object-fit:cover"/>
+		</figure>
 		<!-- /wp:image -->
 
 		<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","className":"about-us__text--large"} -->

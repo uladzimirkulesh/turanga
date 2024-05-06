@@ -14,14 +14,16 @@ Section
 Section Header
 */
 
-.section__header {
+.section__header,
+.page-header.grid {
 	grid-template-areas:
 		"a a a a"
 		"b b b b";
 }
 
 @media only screen and (min-width: 600px) {
-	.section__header {
+	.section__header,
+	.page-header.grid {
 		grid-template-areas:
 			"a a a a a a a a"
 			". . . . b b b b";
@@ -29,23 +31,27 @@ Section Header
 }
 
 @media only screen and (min-width: 768px) {
-	.section__header {
+	.section__header,
+	.page-header.grid {
 		grid-template-areas: "a a a a a a b b";
 	}
 }
 
 @media only screen and (min-width: 960px) {
-	.section__header {
+	.section__header,
+	.page-header.grid {
 		grid-template-areas: "a a a a a a a a a b b b";
 	}
 }
 
 .section__header h1,
-.section__header h2 {
+.section__header h2,
+.page-header.grid h1 {
 	grid-area: a;
 }
 
-.section__header p {
+.section__header p,
+.page-header.grid p {
 	grid-area: b;
 }
 
@@ -109,16 +115,24 @@ Text
 	}
 }
 
-.section--about-us .about-us__text p:nth-child(1) {
+.section--about-us .about-us__text > :nth-child(1) {
 	grid-area: a;
 }
 
-.section--about-us .about-us__text p:nth-child(2) {
+.section--about-us .about-us__text > :nth-child(2) {
 	grid-area: b;
 }
 
-.section--about-us .about-us__text p:nth-child(3) {
+.section--about-us .about-us__text > :nth-child(3) {
 	grid-area: c;
+}
+
+/*-------------------------------------------------------
+Pattern "About Us 2"
+-------------------------------------------------------*/
+
+.section--about-us-2 .about-us__text--large {
+	font-size: clamp(1.5rem, 2.8125vi + 0.9375rem, 3.75rem) !important;
 }
 
 /*-------------------------------------------------------
@@ -365,6 +379,11 @@ Numbers List
 	.section--business-numbers .number-card:nth-child(8) { order: 7; }
 }
 
+.section--business-numbers .number-card > :first-child {
+	font-size: 5.25rem;
+	line-height: 0.9;
+}
+
 /*-------------------------------------------------------
 Pattern "Contacts"
 -------------------------------------------------------*/
@@ -423,4 +442,125 @@ Pattern "Site Title"
 		font-size: 20.75vw;
 		line-height: 0.8;
 	}
+}
+
+/*-------------------------------------------------------
+Pattern "Gallery Row"
+-------------------------------------------------------*/
+
+.section--gallery-row .section__content {
+	gap: 0.5rem;
+}
+
+.section--gallery-row .wp-block-image {
+	grid-column: span 1 / auto;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+	.section--gallery-row .wp-block-image:nth-child(9),
+	.section--gallery-row .wp-block-image:nth-child(10),
+	.section--gallery-row .wp-block-image:nth-child(11),
+	.section--gallery-row .wp-block-image:nth-child(12) {
+		display: none;
+	}
+}
+
+/*-------------------------------------------------------
+Pattern "Gallery"
+-------------------------------------------------------*/
+
+.section--gallery .wp-block-image {
+	grid-column: span 4 / auto;
+}
+
+@media only screen and (min-width: 480px) {
+	.section--gallery .wp-block-image {
+		grid-column: span 2 / auto;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.section--gallery .wp-block-image {
+		grid-column: span 4 / auto;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.section--gallery .wp-block-image {
+		grid-column: span 3 / auto;
+	}
+}
+
+/*-------------------------------------------------------
+Pattern "Page About Us"
+-------------------------------------------------------*/
+
+/*
+Contact form
+*/
+
+@media only screen and (min-width: 768px) {
+	.page-content .contact-form {
+		grid-column: 1 / -1;
+	}
+
+	.page-content .contact-info {
+		grid-column: 1 / -1;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.page-content .contact-form {
+		grid-column: 1 / 9;
+	}
+
+	.page-content .contact-info {
+		grid-column: 9 / 13;
+	}
+}
+
+.contact-form__wrapper {
+	padding: clamp(1rem, 2.5vi + 0.5rem, 3rem);
+}
+
+/*
+Contact info
+*/
+
+.contact-info {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	grid-template-rows: auto;
+	gap: var(--wp--style--block-gap);
+	align-content: start;
+}
+
+@media only screen and (max-width: 959px) {
+	.contact-info {
+		margin-top: var(--wp--preset--spacing--30) !important;
+	}
+}
+
+/*
+Contact info block
+*/
+
+.contact-info__block {
+	grid-column: span 2 / auto;
+}
+
+@media only screen and (min-width: 600px) {
+	.contact-info__block {
+		grid-column: span 1 / auto;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.contact-info__block {
+		grid-column: span 2 / auto;
+	}
+}
+
+.contact-info__block a {
+	text-decoration: none;
 }

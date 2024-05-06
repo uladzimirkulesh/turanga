@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Latest Projects section
+ * Title: Latest projects section
  * Slug: turanga/section-latest-projects
  * Categories: portfolio, gallery, turanga-theme
  * Keywords: portfolio, projects

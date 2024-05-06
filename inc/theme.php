@@ -79,6 +79,8 @@ if ( ! function_exists( 'turanga_theme_admin_page' ) ) {
 
 			<p><?php esc_html_e( 'Thank You for using Turanga!', 'turanga' ); ?></p>
 
+			<p><a href="https://gist.github.com/uladzimirkulesh/09cbc4fc7730f6e6ee332b1dbf18e0d1" target="_blank"><?php esc_html_e( 'Code example for Contact Form 7 plugin', 'turanga' ); ?></a></p>
+
 			<p class="submit">
 				<a href="<?php echo esc_url( ANOKA_THEME_URI ); ?>" class="button button-primary" target="_blank"><?php esc_html_e( 'Theme Homepage', 'turanga' ); ?></a>
 

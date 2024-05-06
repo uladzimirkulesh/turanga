@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Our Team section
+ * Title: Our team section
  * Slug: turanga/section-our-team
  * Categories: text, turanga-theme
  * Keywords: text, team

@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Latest Posts section
+ * Title: Latest posts section
  * Slug: turanga/section-latest-posts
  * Categories: query, turanga-theme
  * Block Types: core/query

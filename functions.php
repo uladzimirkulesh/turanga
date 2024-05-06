@@ -23,7 +23,8 @@ if ( ! function_exists( 'turanga_support' ) ) :
 		add_editor_style( array(
 			'style.css',
 			'assets/css/grid.css',
-			'assets/css/patterns.css'
+			'assets/css/patterns.css',
+			'assets/css/contact-form.css'
 		) );
 
 	}
@@ -75,6 +76,17 @@ if ( ! function_exists( 'turanga_scripts' ) ) :
 		// Enqueue other stylesheets.
 		wp_enqueue_style( 'turanga-grid' );
 		wp_enqueue_style( 'turanga-patterns' );
+
+		// Register plugins stylesheets.
+		wp_register_style(
+			'turanga-contact-form',
+			get_template_directory_uri() . '/assets/css/contact-form.css',
+			array( 'turanga-style' ),
+			$version_string
+		);
+
+		// Enqueue plugins stylesheets.
+		wp_enqueue_style( 'turanga-contact-form' );
 
 		// Register global scripts.
 		wp_register_script(

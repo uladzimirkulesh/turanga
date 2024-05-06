@@ -7,7 +7,7 @@ Description: Introducing Turanga - the ultimate WordPress theme for tattoo agenc
 Requires at least: 6.1
 Tested up to: 6.5
 Requires PHP: 5.6
-Version: 1.0.0000000000000000000000000000
+Version: 1.0.00000000000000000000000000000000000
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: turanga
@@ -277,8 +277,10 @@ label,
 	margin-bottom: calc(var(--wp--style--block-gap) / 4);
 
 	color: var(--wp--preset--color--contrast-secondary-text);
-	font-size: var(--wp--preset--font-size--small);
-	font-weight: var(--wp--custom--font-weight--text);
+	font-size: 0.75rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
 }
 
 label .required {
@@ -335,7 +337,7 @@ textarea,
 	line-height: var(--wp--style--block-gap);
 	letter-spacing: var(--wp--custom--letter-spacing--text);
 
-	background-color: transparent;
+	background-color: var(--wp--preset--color--base);
 	border-width: 1px;
 	border-style: solid;
 	border-color: var(--wp--preset--color--contrast-inputs);
@@ -440,7 +442,7 @@ select {
 	line-height: var(--wp--style--block-gap);
 	letter-spacing: var(--wp--custom--letter-spacing--text);
 
-	background-color: transparent;
+	background-color: var(--wp--preset--color--base);
 	border-width: 1px;
 	border-style: solid;
 	border-color: var(--wp--preset--color--contrast-inputs);
