@@ -378,3 +378,6 @@ add_action( 'wp_head', 'turanga_head_meta_tags' );
 
 // Load theme admin page file.
 require get_template_directory() . '/inc/theme.php';
+
+// Load TGM Plugin Activation file.
+require get_template_directory() . '/inc/theme-required-plugins.php';

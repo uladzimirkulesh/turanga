@@ -1,0 +1,849 @@
+# Copyright (C) 2024 Uladzimir Kulesh
+# This file is distributed under the same license as the Turanga package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Turanga\n"
+"Report-Msgid-Bugs-To: https://uladzimirkulesh.com\n"
+"POT-Creation-Date: 2024-05-07 09:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Uladzimir Kulesh <hello@uladzimirkulesh.com>\n"
+"Language-Team: Uladzimir Kulesh <hello@uladzimirkulesh.com>\n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.7; wp-6.5.2\n"
+"X-Domain: turanga"
+
+#: patterns/section-about-us.php:33
+msgctxt "About us section large text"
+msgid ""
+"Established in 2012, Turanga Studio have stamped their mark on Czech "
+"Republic. We have won multiple awards in international tattoo conventions "
+"and built a strong reputation."
+msgstr ""
+
+#: patterns/page-about-us.php:31
+msgctxt "About us section large text"
+msgid "Transform your skin with Turanga Studio: the ultimate tattoo solution"
+msgstr ""
+
+#: patterns/page-about-us.php:55
+msgctxt "About us section text"
+msgid ""
+"At Turanga Studio, we offer a wide range of tattoo styles, from traditional "
+"to modern, black and grey to vibrant colors. Our artists are versatile and "
+"can cater to any design you have in mind. We also welcome custom designs and "
+"will work closely with you to bring your ideas to reality."
+msgstr ""
+
+#: patterns/page-about-us.php:43
+msgctxt "About us section text"
+msgid ""
+"At Turanga Studio, we understand that getting a tattoo is a personal and "
+"meaningful decision. That's why we have curated a team of talented artists "
+"who are passionate about their craft and committed to bringing your vision "
+"to life. With years of experience and a keen eye for detail, our artists "
+"will work with you to create a one-of-a-kind design that you will be proud "
+"to wear for a lifetime."
+msgstr ""
+
+#: patterns/page-about-us.php:51
+msgctxt "About us section text"
+msgid ""
+"But it's not just about the art - we also prioritize the health and safety "
+"of our clients. Our studio follows strict hygiene protocols and uses only "
+"the highest quality, natural and vegan-friendly inks and materials. We "
+"believe that your tattoo should not only look beautiful, but also be safe "
+"for your body."
+msgstr ""
+
+#: patterns/page-about-us.php:63
+msgctxt "About us section text"
+msgid ""
+"But our services don't end with just tattoos. We also offer tattoo removal "
+"and cover-up services, as well as aftercare products to ensure your tattoo "
+"heals properly and maintains its vibrancy."
+msgstr ""
+
+#: patterns/section-about-us.php:47
+msgctxt "About us section text"
+msgid ""
+"If you don't have a specific idea about tattoo, during the free consultation "
+"our team will take care of the perfect embodiment of your ideals. "
+"Experienced tattoo artists will draw a tattoo design for you, which you can "
+"change together and optimize according to your ideas and wishes."
+msgstr ""
+
+#: patterns/page-about-us.php:39
+msgctxt "About us section text"
+msgid ""
+"Introducing Turanga Studio - the ultimate destination for all your tattoo "
+"needs. Our studio is dedicated to providing a natural and authentic "
+"experience for our clients, ensuring that every tattoo is a true reflection "
+"of your individuality."
+msgstr ""
+
+#: patterns/page-about-us.php:67
+msgctxt "About us section text"
+msgid ""
+"Located in the heart of the city, our studio provides a warm and welcoming "
+"atmosphere for our clients. We want you to feel comfortable and at ease "
+"during your tattoo experience with us."
+msgstr ""
+
+#: patterns/section-about-us.php:43
+msgctxt "About us section text"
+msgid ""
+"Our priority is to satisfy your expectations and an individual approach to "
+"each customer. During the visit we will be happy to offer you water, tea or "
+"coffee to make you feel comfortable. There is nothing to worry about, a "
+"friendly atmosphere is always our priority. Turanda Studio fulfill all "
+"standards and is regularly checked by Hygiene control."
+msgstr ""
+
+#: patterns/section-about-us.php:39
+msgctxt "About us section text"
+msgid ""
+"Our tattoo artists regularly attend tattoo courses to improve their skills. "
+"In addition, every year we participate in tattoo conventions, European and "
+"international. In a cozy ambience, you get the opportunity to fulfill your "
+"wishes for small and large tattoos, modifications and body decorations. "
+"Cleanliness, hygiene and a sterile ambience are a matter of course for our "
+"tattoo studio."
+msgstr ""
+
+#: patterns/page-about-us.php:71
+msgctxt "About us section text"
+msgid ""
+"So why settle for anything less than the best? Visit Turanga Studio today "
+"and let us help you create a tattoo that is as unique as you are. Book your "
+"appointment now and join the Turanga family."
+msgstr ""
+
+#: patterns/page-about-us.php:17
+msgctxt "About us section title"
+msgid "About Us"
+msgstr ""
+
+#: patterns/section-about-us.php:19
+msgctxt "About us section title"
+msgid "Estd<br>/12"
+msgstr ""
+
+#: patterns/section-about-us.php:15
+msgctxt "About us section title"
+msgid "Tattoo with<br>a special touch"
+msgstr ""
+
+#: patterns/hidden-404.php:23
+msgid "Back to Home"
+msgstr ""
+
+#: patterns/template-home-blogging.php:21
+msgctxt "Blog page title"
+msgid "/32"
+msgstr ""
+
+#: patterns/template-home-blogging.php:17
+msgctxt "Blog page title"
+msgid "News"
+msgstr ""
+
+#: patterns/section-business-numbers.php:41
+msgctxt "Business Numbers section number"
+msgid "1286"
+msgstr ""
+
+#: patterns/section-business-numbers.php:63
+msgctxt "Business Numbers section number"
+msgid "1763"
+msgstr ""
+
+#: patterns/section-business-numbers.php:19
+msgctxt "Business Numbers section number"
+msgid "910"
+msgstr ""
+
+#: patterns/section-business-numbers.php:85
+msgctxt "Business Numbers section number"
+msgid "967"
+msgstr ""
+
+#: patterns/section-business-numbers.php:67
+msgctxt "Business Numbers section text"
+msgid "Free consultations"
+msgstr ""
+
+#: patterns/section-business-numbers.php:23
+msgctxt "Business Numbers section text"
+msgid "Happy customers"
+msgstr ""
+
+#: patterns/section-business-numbers.php:89
+msgctxt "Business Numbers section text"
+msgid "Individual sketchess"
+msgstr ""
+
+#: patterns/section-business-numbers.php:45
+msgctxt "Business Numbers section text"
+msgid "Performed tattoos"
+msgstr ""
+
+#. "Code by" text.
+#: patterns/footer-default.php:20
+#, php-format
+msgid "Code by %s"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Contrast"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Contrast Borders"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Contrast Inputs"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Contrast Inputs (hover)"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Contrast Secondary Background"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Contrast Secondary Text"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Contrast Text"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Danger"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Grey"
+msgstr ""
+
+#: inc/theme-required-plugins.php:28
+msgid "Contact Form 7"
+msgstr ""
+
+#: patterns/page-contact-us.php:51
+msgctxt "Contact us page pattern contact block text"
+msgid "2118 Thornridge Cir. Syracuse,<br>Connecticut 35624"
+msgstr ""
+
+#: patterns/page-contact-us.php:75
+msgctxt "Contact us page pattern contact block text"
+msgid "Mon-Sat : 9am to 5pm<br>Sunday – Closed"
+msgstr ""
+
+#: patterns/page-contact-us.php:63
+msgctxt "Contact us page pattern contact block text"
+msgid "Tel.: (209) 555-0104<br>Email: hello@turanga.com"
+msgstr ""
+
+#: patterns/page-contact-us.php:47
+msgctxt "Contact us page pattern contact block title"
+msgid "Adress"
+msgstr ""
+
+#: patterns/page-contact-us.php:59
+msgctxt "Contact us page pattern contact block title"
+msgid "Contact details"
+msgstr ""
+
+#: patterns/page-contact-us.php:83
+msgctxt "Contact us page pattern contact block title"
+msgid "Socials"
+msgstr ""
+
+#: patterns/page-contact-us.php:71
+msgctxt "Contact us page pattern contact block title"
+msgid "Working Hours"
+msgstr ""
+
+#: patterns/page-contact-us.php:29
+msgctxt "Contact us page pattern text"
+msgid ""
+"Do you have a question about a tattoo, want to make an appointment, write a "
+"review, or have an idea for improvement? Fill out the form and tell us more "
+"details. We will contact you within 1 business day."
+msgstr ""
+
+#: patterns/page-contact-us.php:15
+msgctxt "Contact us page pattern title"
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/page-contact-us.php:91
+msgctxt "Contact us page social links"
+msgid ""
+"<a href=\"#\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>"
+msgstr ""
+
+#: patterns/page-contact-us.php:87
+msgctxt "Contact us page social links"
+msgid ""
+"<a href=\"#\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a>"
+msgstr ""
+
+#: patterns/page-contact-us.php:95
+msgctxt "Contact us page social links"
+msgid "<a href=\"#\" target=\"_blank\" rel=\"noreferrer noopener\">YouTube</a>"
+msgstr ""
+
+#: patterns/section-contacts.php:17
+msgctxt "Contacts section text"
+msgid "2118 Thornridge Cir. Syracuse,<br>Connecticut 35624"
+msgstr ""
+
+#: patterns/section-contacts.php:25
+msgctxt "Contacts section text"
+msgid "Mon-Sat : 9am to 5pm<br>Sunday – Closed"
+msgstr ""
+
+#: patterns/section-contacts.php:21
+msgctxt "Contacts section text"
+msgid "Tel.: (209) 555-0104<br>Email: hello@turanga.com"
+msgstr ""
+
+#: patterns/footer-default.php:33
+msgctxt "Copyright text"
+msgid "© 2024 all rights reserved"
+msgstr ""
+
+#: patterns/section-cta.php:18
+msgctxt "CTA section button text"
+msgid "Make an appointment"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Blank template"
+msgstr ""
+
+#: patterns/hidden-404.php:12
+msgctxt "Error code for a webpage that is not found."
+msgid "Error 404"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Monospace Font"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Satoshi"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "System Sans-serif"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "2X Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "3X Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "4X Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "5X Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "6X Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "7X Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Normal"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "X Small"
+msgstr ""
+
+#: patterns/gallery-4-col.php:19
+msgctxt "Gallery pattern title"
+msgid "/67"
+msgstr ""
+
+#: patterns/gallery-4-col.php:15
+msgctxt "Gallery pattern title"
+msgid "Gallery"
+msgstr ""
+
+#. Author URI of the theme
+#: patterns/footer-default.php:21
+msgid "https://uladzimirkulesh.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://uladzimirkulesh.com/portfolio/turanga"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Introducing Turanga - the ultimate WordPress theme for tattoo agencies! With "
+"its sleek and modern design, Turanga is the perfect choice for any tattoo "
+"studio looking to make a bold statement online. This theme is packed with "
+"all the features you need to showcase your unique style and attract new "
+"clients. Turanga's fully customizable layout allows you to effortlessly "
+"create a website that truly reflects your brand. Plus, with its responsive "
+"design, your website will look amazing on any device, ensuring a seamless "
+"user experience for your visitors. Let Turanga elevate your online presence "
+"and attract more clients to your tattoo agency. Get Turanga today and watch "
+"your business soar!"
+msgstr ""
+
+#: patterns/hidden-no-results.php:15
+msgctxt "Label"
+msgid "Search"
+msgstr ""
+
+#: patterns/section-latest-posts.php:51
+msgctxt "Latest Posts section read all link text"
+msgid "Read All"
+msgstr ""
+
+#: patterns/section-latest-posts.php:19
+msgctxt "Latest Posts section title"
+msgid "/32"
+msgstr ""
+
+#: patterns/section-latest-posts.php:15
+msgctxt "Latest Posts section title"
+msgid "News"
+msgstr ""
+
+#: patterns/section-latest-projects.php:19
+msgctxt "Latest Projects section title"
+msgid "/67"
+msgstr ""
+
+#: patterns/section-latest-projects.php:15
+msgctxt "Latest Projects section title"
+msgid "Gallery"
+msgstr ""
+
+#: patterns/section-latest-projects.php:101
+msgctxt "Latest Projects section view more link text"
+msgid "View<br>more"
+msgstr ""
+
+#: patterns/hidden-no-results.php:12
+msgctxt "Message explaining that there are no results returned from a search"
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: patterns/hidden-404.php:16
+msgctxt "Message to convey that a webpage could not be found"
+msgid "The page you are looking for cannot be found."
+msgstr ""
+
+#: patterns/section-our-team.php:65
+msgctxt "Our Team section artist name"
+msgid "Peter Woods"
+msgstr ""
+
+#: patterns/section-our-team.php:37
+msgctxt "Our Team section artist name"
+msgid "Richard Mason"
+msgstr ""
+
+#: patterns/section-our-team.php:79
+msgctxt "Our Team section artist name"
+msgid "Robin Colins"
+msgstr ""
+
+#: patterns/section-our-team.php:51
+msgctxt "Our Team section artist name"
+msgid "Tom Adams"
+msgstr ""
+
+#: patterns/section-our-team.php:89
+msgctxt "Our Team section large text"
+msgid ""
+"Whether you want a tattoo on your arm, leg, back or side, colored or black, "
+"we’ve got you covered. We will be happy to help you with the choice and "
+"subsequent consultation on tattoos to achieve the best result. Original "
+"tattoo right for you and to your taste."
+msgstr ""
+
+#: patterns/section-our-team.php:19
+msgctxt "Our Team section title"
+msgid "/04"
+msgstr ""
+
+#: patterns/section-our-team.php:15
+msgctxt "Our Team section title"
+msgid "Our Team"
+msgstr ""
+
+#: functions.php:330
+msgid "Pages"
+msgstr ""
+
+#: patterns/page-about-us.php:2
+msgctxt "Pattern title"
+msgid "About us page"
+msgstr ""
+
+#: patterns/section-about-us.php:2
+msgctxt "Pattern title"
+msgid "About us section"
+msgstr ""
+
+#: patterns/template-home-blogging.php:2
+msgctxt "Pattern title"
+msgid "Blogging home template"
+msgstr ""
+
+#: patterns/page-home-business.php:2
+msgctxt "Pattern title"
+msgid "Business home page"
+msgstr ""
+
+#: patterns/template-home-business.php:2
+msgctxt "Pattern title"
+msgid "Business home template"
+msgstr ""
+
+#: patterns/section-business-numbers.php:2
+msgctxt "Pattern title"
+msgid "Business numbers section"
+msgstr ""
+
+#: patterns/page-contact-us.php:2
+msgctxt "Pattern title"
+msgid "Contact us page"
+msgstr ""
+
+#: patterns/section-contacts.php:2
+msgctxt "Pattern title"
+msgid "Contacts section"
+msgstr ""
+
+#: patterns/section-cta.php:2
+msgctxt "Pattern title"
+msgid "CTA section"
+msgstr ""
+
+#: patterns/footer-default.php:2
+msgctxt "Pattern title"
+msgid "Default footer"
+msgstr ""
+
+#: patterns/page-gallery.php:2
+msgctxt "Pattern title"
+msgid "Gallery page"
+msgstr ""
+
+#: patterns/gallery-4-col.php:2
+msgctxt "Pattern title"
+msgid "Gallery, 4 columns"
+msgstr ""
+
+#: patterns/hidden-404.php:2
+msgctxt "Pattern title"
+msgid "Hidden 404"
+msgstr ""
+
+#: patterns/hidden-comments.php:2
+msgctxt "Pattern title"
+msgid "Hidden comments"
+msgstr ""
+
+#: patterns/hidden-no-results.php:2
+msgctxt "Pattern title"
+msgid "Hidden no results content"
+msgstr ""
+
+#: patterns/section-latest-posts.php:2
+msgctxt "Pattern title"
+msgid "Latest posts section"
+msgstr ""
+
+#: patterns/section-latest-projects.php:2
+msgctxt "Pattern title"
+msgid "Latest projects section"
+msgstr ""
+
+#: patterns/posts-list.php:2
+msgctxt "Pattern title"
+msgid "List of posts"
+msgstr ""
+
+#: patterns/section-our-team.php:2
+msgctxt "Pattern title"
+msgid "Our team section"
+msgstr ""
+
+#: patterns/section-reviews.php:2
+msgctxt "Pattern title"
+msgid "Reviews section"
+msgstr ""
+
+#: patterns/section-site-title.php:2
+msgctxt "Pattern title"
+msgid "Site title section"
+msgstr ""
+
+#: patterns/hidden-no-results.php:15
+msgctxt "Placeholder for search field"
+msgid "Search..."
+msgstr ""
+
+#: functions.php:329
+msgid "Portfolio"
+msgstr ""
+
+#: patterns/section-reviews.php:83
+msgctxt "Reviews section review text"
+msgid ""
+"I could look at a certain tattoo, it always reminds me of a certain time in "
+"my life."
+msgstr ""
+
+#: patterns/section-reviews.php:39
+msgctxt "Reviews section review text"
+msgid ""
+"It’s your skin, you must decide what to do with it. Like in life, there is "
+"always a choice."
+msgstr ""
+
+#: patterns/section-reviews.php:105
+msgctxt "Reviews section review text"
+msgid ""
+"Really happy my experience. Service is quick as well at a very reasonable "
+"price!"
+msgstr ""
+
+#: patterns/section-reviews.php:61
+msgctxt "Reviews section review text"
+msgid ""
+"There is something in the act of having tattoos done that I love. It can be "
+"addictive."
+msgstr ""
+
+#: patterns/section-reviews.php:45
+msgctxt "Reviews section reviewer name"
+msgid "Bennett Cole"
+msgstr ""
+
+#: patterns/section-reviews.php:67
+msgctxt "Reviews section reviewer name"
+msgid "Christian Brown"
+msgstr ""
+
+#: patterns/section-reviews.php:111
+msgctxt "Reviews section reviewer name"
+msgid "Edmond Herrera"
+msgstr ""
+
+#: patterns/section-reviews.php:89
+msgctxt "Reviews section reviewer name"
+msgid "Georgie Tingey"
+msgstr ""
+
+#: patterns/section-reviews.php:19
+msgctxt "Reviews section title"
+msgid "/5.0"
+msgstr ""
+
+#: patterns/section-reviews.php:15
+msgctxt "Reviews section title"
+msgid "Reviews"
+msgstr ""
+
+#: patterns/hidden-no-results.php:15
+msgid "Search"
+msgstr ""
+
+#: patterns/section-site-title.php:15
+msgctxt "Site Title section text"
+msgid "Turanga"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "1"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "2"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "3"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "4"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "5"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "6"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "7"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: inc/theme.php:96
+msgctxt "Theme admin page button text"
+msgid "Live Preview"
+msgstr ""
+
+#: inc/theme.php:94
+msgctxt "Theme admin page button text"
+msgid "Theme Homepage"
+msgstr ""
+
+#: inc/theme.php:91
+msgctxt "Theme admin page text"
+msgid " this code"
+msgstr ""
+
+#: inc/theme.php:81
+msgctxt "Theme admin page text"
+msgid "Introducing Turanga - the ultimate WordPress theme for tattoo agencies!"
+msgstr ""
+
+#: inc/theme.php:87
+msgctxt "Theme admin page text"
+msgid ""
+"Let Turanga elevate your online presence and attract more clients to your "
+"tattoo agency. Get Turanga today and watch your business soar!"
+msgstr ""
+
+#: inc/theme.php:91
+msgctxt "Theme admin page text"
+msgid "To set up Contact Form 7 plugin you can use "
+msgstr ""
+
+#: inc/theme.php:85
+msgctxt "Theme admin page text"
+msgid ""
+"Turanga's fully customizable layout allows you to effortlessly create a "
+"website that truly reflects your brand. Plus, with its responsive design, "
+"your website will look amazing on any device, ensuring a seamless user "
+"experience for your visitors."
+msgstr ""
+
+#: inc/theme.php:83
+msgctxt "Theme admin page text"
+msgid ""
+"With its sleek and modern design, Turanga is the perfect choice for any "
+"tattoo studio looking to make a bold statement online. This theme is packed "
+"with all the features you need to showcase your unique style and attract new "
+"clients."
+msgstr ""
+
+#: inc/theme.php:89
+msgctxt "Theme admin page title"
+msgid "Theme settings"
+msgstr ""
+
+#: inc/theme.php:79
+msgctxt "Theme admin page title"
+msgid "Turanga Theme"
+msgstr ""
+
+#. Name of the theme
+msgid "Turanga"
+msgstr ""
+
+#: functions.php:328
+msgid "Turanga Theme"
+msgstr ""
+
+#. Author of the theme
+msgid "Uladzimir Kulesh"
+msgstr ""

@@ -8,8 +8,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define('ANOKA_THEME_URI','https://uladzimirkulesh.com/portfolio/turanga');
-define('ANOKA_THEME_LIVE_URI','https://turanga.uladzimirkulesh.com');
+define('TURANGA_THEME_URI','https://uladzimirkulesh.com/portfolio/turanga');
+define('TURANGA_THEME_LIVE_URI','https://turanga.uladzimirkulesh.com');
+define('TURANGA_THEME_GIST_URI','https://gist.github.com/uladzimirkulesh/09cbc4fc7730f6e6ee332b1dbf18e0d1');
 
 if ( ! function_exists( 'turanga_admin_page_styles' ) ) {
 
@@ -22,22 +23,22 @@ if ( ! function_exists( 'turanga_admin_page_styles' ) ) {
 	 */
 	function turanga_admin_page_styles( $hook ){
 
-		if ( 'appearance_page_turanga' != $hook ) {
+		if ( 'appearance_page_turanga-theme' != $hook ) {
 			return;
 		}
 
 		$theme_version  = wp_get_theme()->get( 'Version' );
 		$version_string = is_string( $theme_version ) ? $theme_version : false;
 
-		// Register plugins stylesheets.
+		// Register admin stylesheets.
 		wp_register_style(
 			'turanga-theme-admin-page',
 			get_template_directory_uri() . '/assets/css/admin.css',
-			array( 'turanga-style' ),
+			array(),
 			$version_string
 		);
 
-		// Enqueue plugins stylesheets.
+		// Enqueue admin stylesheets.
 		wp_enqueue_style( 'turanga-theme-admin-page' );
 
 	}
@@ -74,17 +75,25 @@ if ( ! function_exists( 'turanga_theme_admin_page' ) ) {
 	 */
 	function turanga_theme_admin_page() {
 		?>
-		<div class="wrap">
-			<h1><?php esc_html_e( 'Turanga Theme', 'turanga' ); ?></h1>
+		<div class="wrap turanga__wrap">
+			<h1><?php echo esc_html_x( 'Turanga Theme', 'Theme admin page title', 'turanga' ); ?></h1>
 
-			<p><?php esc_html_e( 'Thank You for using Turanga!', 'turanga' ); ?></p>
+			<p class="turanga__theme-description"><?php echo esc_html_x( 'Introducing Turanga - the ultimate WordPress theme for tattoo agencies!', 'Theme admin page text', 'turanga' ); ?></p>
 
-			<p><a href="https://gist.github.com/uladzimirkulesh/09cbc4fc7730f6e6ee332b1dbf18e0d1" target="_blank"><?php esc_html_e( 'Code example for Contact Form 7 plugin', 'turanga' ); ?></a></p>
+			<p class="turanga__theme-description"><?php echo esc_html_x( 'With its sleek and modern design, Turanga is the perfect choice for any tattoo studio looking to make a bold statement online. This theme is packed with all the features you need to showcase your unique style and attract new clients.', 'Theme admin page text', 'turanga' ); ?></p>
+
+			<p class="turanga__theme-description"><?php echo esc_html_x( 'Turanga\'s fully customizable layout allows you to effortlessly create a website that truly reflects your brand. Plus, with its responsive design, your website will look amazing on any device, ensuring a seamless user experience for your visitors.', 'Theme admin page text', 'turanga' ); ?></p>
+
+			<p class="turanga__theme-description"><?php echo esc_html_x( 'Let Turanga elevate your online presence and attract more clients to your tattoo agency. Get Turanga today and watch your business soar!', 'Theme admin page text', 'turanga' ); ?></p>
+
+			<h2><?php echo esc_html_x( 'Theme settings', 'Theme admin page title', 'turanga' ); ?></h2>
+
+			<p><?php echo esc_html_x( 'To set up Contact Form 7 plugin you can use ', 'Theme admin page text', 'turanga' ); ?><a href="<?php echo esc_url( TURANGA_THEME_GIST_URI ); ?>" target="_blank"><?php echo esc_html_x( ' this code', 'Theme admin page text', 'turanga' ); ?></a></p>
 
 			<p class="submit">
-				<a href="<?php echo esc_url( ANOKA_THEME_URI ); ?>" class="button button-primary" target="_blank"><?php esc_html_e( 'Theme Homepage', 'turanga' ); ?></a>
+				<a href="<?php echo esc_url( TURANGA_THEME_URI ); ?>" class="button button-primary" target="_blank"><?php echo esc_html_x( 'Theme Homepage', 'Theme admin page button text', 'turanga' ); ?></a>
 
-				<a href="<?php echo esc_url( ANOKA_THEME_LIVE_URI ); ?>" class="button button-primary" target="_blank"><?php esc_html_e( 'Live Preview', 'turanga' ); ?></a>
+				<a href="<?php echo esc_url( TURANGA_THEME_LIVE_URI ); ?>" class="button button-primary" target="_blank"><?php echo esc_html_x( 'Live Preview', 'Theme admin page button text', 'turanga' ); ?></a>
 			</p>
 
 			<div class="clear"></div>
